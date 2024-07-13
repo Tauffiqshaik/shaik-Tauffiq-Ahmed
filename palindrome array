@@ -1,0 +1,7 @@
+rev=0
+arr=["abc","car","ada","racecar","cool"]
+for x in arr:
+if x==x[::-1]:
+print("palindrome",x)
+else:
+print("not palindrome",x)
